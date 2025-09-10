@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 import Tilt from 'react-parallax-tilt';
-import profileImage from '../../assets/salonii.jpg';
+import profileImage from '../../assets/saloniii.jpg';
 
 const About = () => {
   return (
@@ -46,7 +46,7 @@ const About = () => {
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1tTIn6w0zz5Q3s4ntayACvnXZOII6kRJc/view?usp=drivesdk"
+            href="https://drive.google.com/file/d/1bhcqw6c8Rt__CvacIa4OOZPf4ANgF56S/view?usp=drivesdk"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
