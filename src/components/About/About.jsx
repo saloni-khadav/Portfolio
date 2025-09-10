@@ -42,10 +42,7 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I'm a passionate and dedicated MERN Stack Developer with a strong foundation in building full-stack web applications. Skilled in both front-end and
-            back-end development, I specialize in the MERN stack and other
-            modern technologies to create seamless user experiences and
-            efficient solutions.
+            I'm a passionate and dedicated Frontend Developer with a strong foundation in building responsive and user-friendly web applications. Skilled in modern frontend technologies like React.js, HTML5, CSS3, and JavaScript, I specialize in creating seamless user experiences, clean UI designs, and performant web interfaces. .
           </p>
           {/* Resume Button */}
           <a
@@ -58,7 +55,7 @@ const About = () => {
               boxShadow: '0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec',
             }}
           >
-            DOWNLOAD CV
+            DOWNLOAD RESUME
           </a>
           
         </div>

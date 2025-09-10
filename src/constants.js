@@ -18,10 +18,6 @@ import postmanLogo from './assets/tech_logo/postman.png';
 import figmaLogo from './assets/tech_logo/figma.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 
-// Experience Section Logo's
-// import webverseLogo from './assets/company_logo/webverse_logo.png';
-// import agcLogo from './assets/company_logo/agc_logo.png';
-// import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
 
 // Education Section Logo's
 import epsLogo from './assets/education_logo/emerald.png';
@@ -29,6 +25,7 @@ import singajiLogo from './assets/education_logo/singajii.png';
 
 
 // Project Section Logo's
+import joPortalLogo from './assets/work_logo/job-portall.png';
 import eccomerceLogo from './assets/work_logo/ecommerce-website.png';
  import rockLogo from './assets/work_logo/rockgame.png';
  import qrLogo from './assets/work_logo/QR-code.png';
@@ -37,7 +34,6 @@ import eccomerceLogo from './assets/work_logo/ecommerce-website.png';
 import weatherLogo from './assets/work_logo/weather.png';
  import gptLogo from './assets/work_logo/gpt.png';
  import digitalclockLogo from './assets/work_logo/digitalclock.png';
-// import githubdetLogo from './assets/work_logo/github_det.png';
 
 
 
@@ -119,8 +115,16 @@ export const SkillsInfo = [
   ];
   
   export const projects = [
-    {
+     {
       id: 0,
+      title: "Job-portal-App",
+      description:"Job Portal App is a platform that connects job seekers with employers. Users can browse job listings, upload resumes, apply for jobs, and receive notifications about new opportunities. Employers can post job openings, manage applications, and find suitable candidates efficiently."  ,
+      image: joPortalLogo,
+      tags: [ "React JS","Tailwindcss", "MongoDb","expressjs", "nodejs","jwt"],
+      github: "https://github.com/saloni-khadav/Jobportalapp.git",
+    },
+    {
+      id: 1,
       title: "Weather-App",
       description:"A sleek and responsive weather application built using ReactJS and Tailwind CSS, powered by a real-time Weather Forecast API. The app allows users to search for any city worldwide and view the current weather conditions along with detailed forecasts."  ,
       image: weatherLogo,
@@ -128,7 +132,7 @@ export const SkillsInfo = [
       github: "https://github.com/saloni-khadav/Weather-App.git",
     },
     {
-      id: 1,
+      id: 2,
       title: "Chat-Bot",
       description:
         "An interactive and stylish chatbot application built using ReactJS and Tailwind CSS. Designed to simulate real-time conversations and assist users through a sleek, responsive UI. Ideal for customer support, onboarding assistants, or just exploring chatbot UI/UX!",
@@ -137,7 +141,7 @@ export const SkillsInfo = [
       github: "https://github.com/saloni-khadav/Chat-bot.git",
     },
     {
-      id: 2,
+      id: 3,
       title: "Ecommerce Website",
       description:
         "A fully responsive eCommerce website built using HTML, CSS, and JavaScript. This project showcases a modern, user-friendly online store layout designed with a clean UI/UX and optimized for both desktop and mobile devices.",
@@ -146,7 +150,7 @@ export const SkillsInfo = [
       github: "https://github.com/saloni-khadav/eommerce-website.git",
     },
     {
-      id: 3,
+      id: 4,
       title: "Travel-Tour-website",
       description:
         "  About Travel Tour Website is a responsive, user-friendly travel tour website using HTML, CSS, and JavaScript. Provided seamless booking",
@@ -155,7 +159,7 @@ export const SkillsInfo = [
       github: "https://github.com/saloni-khadav/Travel-Tour-Website.git",
     },
     {
-      id: 4,
+      id: 5,
       title: "Digital-Clock",
       description:
         "A simple digital clock built with HTML, CSS, and JavaScript that displays the current time and updates every second.",
@@ -164,7 +168,7 @@ export const SkillsInfo = [
       github: "https://github.com/saloni-khadav/Digital-Clock.git",
     },
     {
-      id: 5,
+      id: 6,
       title: "QR-CODE Generator",
       description:
         "A QR code generator built with HTML, CSS, and JavaScript that converts text or URLs into scannable QR codes.",
@@ -172,26 +176,26 @@ export const SkillsInfo = [
       tags: ["HTML", "CSS", "JavaScript"],
       github: "https://github.com/saloni-khadav/QR-Code-Generator.git",
     },
-    // {
-    //   id: 6,
-    //   title: "Rock-Paper-Scissor Game",
-    //   description:
-    //     "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-    //   image: rockLogo,
-    //   tags: ["HTML", "CSS", "JavaScript"],
-    //   github: "https://github.com/saloni-khadav/Rock-Paper-Scissor.git",
-    //   webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
-    // },
-    // {
-    //   id: 7,
-    //   title: "Tic-Tac-Toe Game",
-    //   description:
-    //     "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
-    //   image: tictacLogo,
-    //   tags: ["HTML", "CSS", "JavaScript"],
-    //   github: "https://github.com/saloni-khadav/Tic-Tac-Toe.git",
-    //   webapp: "https://webversedigital.com/",
-    // },
+    {
+      id: 7,
+      title: "Rock-Paper-Scissor Game",
+      description:
+        "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
+      image: rockLogo,
+      tags: ["HTML", "CSS", "JavaScript"],
+      github: "https://github.com/saloni-khadav/Rock-Paper-Scissor.git",
+      webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
+    },
+    {
+      id: 8,
+      title: "Tic-Tac-Toe Game",
+      description:
+        "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
+      image: tictacLogo,
+      tags: ["HTML", "CSS", "JavaScript"],
+      github: "https://github.com/saloni-khadav/Tic-Tac-Toe.git",
+      webapp: "https://webversedigital.com/",
+    },
     
     
    
