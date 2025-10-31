@@ -13,7 +13,7 @@ import mongodbLogo from './assets/tech_logo/mongodb.png';
 import javaLogo from './assets/tech_logo/java.png';
 import gitLogo from './assets/tech_logo/git.png';
 import githubLogo from './assets/tech_logo/github.png';
-import vscodeLogo from './assets/tech_logo/vscode.png';
+// import vscodeLogo from './assets/tech_logo/vscode.png';
 import postmanLogo from './assets/tech_logo/postman.png';
 import figmaLogo from './assets/tech_logo/figma.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
@@ -73,7 +73,7 @@ export const SkillsInfo = [
     skills: [
       { name: 'Git', logo: gitLogo },
       { name: 'GitHub', logo: githubLogo },
-      { name: 'VS Code', logo: vscodeLogo },
+      // { name: 'VS Code', logo: vscodeLogo },
       { name: 'Postman', logo: postmanLogo },
       { name: 'Vercel', logo: vercelLogo },
       { name: 'Figma', logo: figmaLogo },
