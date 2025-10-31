@@ -4,6 +4,7 @@ import Tilt from 'react-parallax-tilt';
 import profileImage from '../../assets/saloniii.jpg';
 
 const About = () => {
+  // Updated to Full-Stack Developer
   return (
     <section
       id="about"
