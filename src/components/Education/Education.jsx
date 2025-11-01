@@ -14,6 +14,18 @@ const Education = () => {
         <p className="text-gray-400 mt-4 text-lg font-semibold">
           My education has been a journey of learning and development. Here are the details of my academic background
         </p>
+        <a
+          href="https://drive.google.com/file/d/19G30F7QAXycGk9J8Nwa1dZkj8MsilgkF/view?usp=drivesdk"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block text-white py-3 px-8 rounded-full mt-6 text-lg font-bold transition duration-300 transform hover:scale-105"
+          style={{
+            background: 'linear-gradient(90deg, #8245ec, #a855f7)',
+            boxShadow: '0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec',
+          }}
+        >
+          DOWNLOAD RESUME
+        </a>
       </div>
 
       {/* Education Timeline */}

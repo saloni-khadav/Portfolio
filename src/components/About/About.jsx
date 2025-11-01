@@ -15,7 +15,7 @@ const About = () => {
         <div className="md:w-1/2 text-center md:text-left mt-8 md:mt-0">
           {/* Greeting */}
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-2 leading-tight">
-            Hello, I am
+            Hi, I am
           </h1>
           {/* Name */}
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 leading-tight">
@@ -26,9 +26,9 @@ const About = () => {
             <span className="text-white">I am a </span>
             <ReactTypingEffect
               text={[
-                'Web Developer',
+                'Full-Stack Developer',
                 'Coder',
-                'web Developer',
+                'Full-Stack Developer',
                 
                 
               ]}
@@ -43,11 +43,11 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I'm a passionate and dedicated Frontend Developer with a strong foundation in building responsive and user-friendly web applications. Skilled in modern frontend technologies like React.js, HTML5, CSS3, and JavaScript, I specialize in creating seamless user experiences, clean UI designs, and performant web interfaces. .
+            I'm a passionate and dedicated Full-Stack Developer with a strong foundation in building scalable, responsive, and user-friendly web applications. Proficient in both frontend and backend technologies, including React.js, Node.js, Express.js, HTML5, CSS3, and JavaScript, I specialize in developing seamless user experiences, clean and efficient UI designs, and robust server-side architectures.
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1kNFQqNeeJqaHdJ54GuldDvE_Ortxi5Vj/view?usp=drivesdk"
+            href="https://drive.google.com/file/d/19G30F7QAXycGk9J8Nwa1dZkj8MsilgkF/view?usp=drivesdk"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"

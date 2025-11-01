@@ -16,7 +16,7 @@ const Footer = () => {
           {/* Brand/Name Section */}
           <div className="mb-6 md:mb-0">
             <h2 className="text-2xl font-bold text-purple-400 tracking-wide">
-              saloni khadav
+              Saloni Khadav
             </h2>
           </div>
 
@@ -76,7 +76,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="text-center text-sm text-gray-500">
-          <p>© 2025 saloni khadav. All rights reserved.</p>
+          <p>© 2025 Saloni Khadav. All rights reserved.</p>
         </div>
       </div>
     </footer>
